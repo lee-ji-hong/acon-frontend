@@ -5,15 +5,15 @@
     <div class="mid-header-wrapper">
       <div class="mid-header-wrapper-inner">
         <div class="mid-header-left">
-          <div style="margin-right: 10px"><h2 style="line-height: 0">Acon</h2></div>
+          <div style="margin-right: 10px" data-test="logo-name"><h2 style="line-height: 0">Acon</h2></div>
           <div class="mid-header-left-search">
             <div class="mid-header-left-search-text">검색어를 입력해주세요.</div>
-            <input />
+            <input data-test="input" />
             <div><img src="	https://www.acon3d.com/_next/image?url=%2Ficons%2Fmagnifying-glass-icon.svg&w=16&q=75" /></div>
           </div>
         </div>
         <nav class="mid-header-right">
-          <div class="mid-header-right-wrapper">
+          <div class="mid-header-right-wrapper" data-test="login">
             <div><a>에이콘3D 소개</a></div>
             <div><a>로그인</a></div>
             <div>/</div>
@@ -23,33 +23,17 @@
       </div>
     </div>
     <!-- mid-header-end -->
-
-    <!-- bottom-header-start -->
-    <div class="bottom-header-wrapper">
-      <div class="bottom-header-wrapper-inner">
-        <div><a>카테고리</a></div>
-        <div><a>이벤트</a></div>
-        <div><a>베스트</a></div>
-        <div><a>신작</a></div>
-        <div><a>혜택관</a></div>
-        <div><a>우주최저가</a></div>
-        <div><a>즐기기</a></div>
-        <div><a>제작의뢰</a></div>
-        <div><a>입점신청</a></div>
-      </div>
-    </div>
-    <!-- bottom-header-end -->
   </header>
   <!-- header-end -->
 </template>
 
 <script>
 export default {
-  name: 'Header',
+  name: 'Nav',
 };
 </script>
 
-<style>
+<style scope>
 .header {
   /* background: linear-gradient(15deg, #ee9ca7, #ffdde1); */
   background-color: white;
