@@ -1,18 +1,18 @@
 <template>
   <!-- nav-start -->
-  <div class="bottom-header-wrapper" data-test="Nav">
-    <div class="bottom-header-wrapper-inner" data-test="nav-category">
-      <div><a>카테고리</a></div>
-      <div><a>이벤트</a></div>
-      <div><a>베스트</a></div>
-      <div><a>신작</a></div>
-      <div><a>혜택관</a></div>
-      <div><a>우주최저가</a></div>
-      <div><a>즐기기</a></div>
-      <div><a>제작의뢰</a></div>
-      <div><a>입점신청</a></div>
-    </div>
-  </div>
+  <nav class="bottom-header-wrapper" data-test="Nav">
+    <ul class="bottom-header-wrapper-inner">
+      <li>카테고리</li>
+      <li>이벤트</li>
+      <li>베스트</li>
+      <li>신작</li>
+      <li>혜택관</li>
+      <li>우주최저가</li>
+      <li>즐기기</li>
+      <li>제작의뢰</li>
+      <li>입점신청</li>
+    </ul>
+  </nav>
   <!-- nav-end -->
 </template>
 
