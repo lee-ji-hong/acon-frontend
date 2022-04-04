@@ -5,7 +5,9 @@
     <div class="mid-header-wrapper">
       <div class="mid-header-wrapper-inner">
         <div class="mid-header-left">
-          <div style="margin-right: 10px" data-test="logo-name"><h2 style="line-height: 0">Acon</h2></div>
+          <div style="margin-right: 10px" data-test="logo-name">
+            <h2 style="line-height: 0"><router-link to="/">Acon</router-link></h2>
+          </div>
           <div class="mid-header-left-search">
             <div class="mid-header-left-search-text">검색어를 입력해주세요.</div>
             <input data-test="input" />
