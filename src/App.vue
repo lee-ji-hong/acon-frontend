@@ -1,22 +1,23 @@
 <template>
-  <Header />
-  <Nav />
   <div id="content" class="content">
-    <router-view />
+    <router-view name="header"></router-view>
+    <router-view name="nav"></router-view>
+    <router-view name="main"></router-view>
   </div>
 </template>
 
 <script>
-import Header from './components/layouts/Header.vue';
-import Nav from './components/layouts/Nav.vue';
-
 export default {
   name: 'App',
-  components: {
-    Header,
-    Nav,
-  },
+  components: {},
 };
 </script>
 
-<style></style>
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+</style>
