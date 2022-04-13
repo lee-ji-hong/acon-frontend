@@ -16,7 +16,9 @@
         </div>
         <nav class="mid-header-right">
           <div class="mid-header-right-wrapper" data-test="login">
-            <div><a>에이콘3D 소개</a></div>
+            <router-link to="/intro">
+              <div><a>에이콘3D 소개</a></div>
+            </router-link>
             <div><a>로그인</a></div>
             <div>/</div>
             <div><a>회원가입</a></div>
