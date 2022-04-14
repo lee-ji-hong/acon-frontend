@@ -1,5 +1,5 @@
 <template>
-  <div data-test="intro-page">
+  <div id="test" data-test="intro-page">
     <h1>gpgp</h1>
   </div>
 </template>

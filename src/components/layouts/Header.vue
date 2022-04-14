@@ -17,7 +17,7 @@
         <nav class="mid-header-right">
           <div class="mid-header-right-wrapper" data-test="login">
             <router-link to="/intro">
-              <div><a>에이콘3D 소개</a></div>
+              <div data-test="intro-btn"><a>에이콘3D 소개</a></div>
             </router-link>
             <div><a>로그인</a></div>
             <div>/</div>
