@@ -16,4 +16,10 @@ describe('IntroPage', () => {
       expect(localWrapper.text()).toEqual(testLocationText[i]);
     }
   });
+  it('Icon버튼을 클릭했을 때 경고창이 뜬다', async () => {
+    jest.spyOn(window, 'alert').mockImplementation(() => {});
+    const testText = '동작하지 않는 버튼입니다';
+    await wrapper.get('div[data-test="clickIcon"]').trigger('click');
+    expect(window.alert).toBeCalledWith(testText);
+  });
 });
